@@ -1,36 +1,43 @@
 # Camera Service WinForms
 
-![Status](https://img.shields.io/badge/status-portfolio%20archive-blue)
-![Project](https://img.shields.io/badge/type-coursework%20project-informational)
-![Stack](https://img.shields.io/badge/stack-C#%20%7C%20WinForms%20%7C%20SQL Server-333333)
-![License](https://img.shields.io/badge/license-MIT-green)
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
+![WinForms](https://img.shields.io/badge/WinForms-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-Windows Forms service tracking application for camera repair and service workflows, including staff and service records backed by SQL scripts.
+A Windows Forms desktop application for managing a camera service workflow. The project models a small service desk scenario where staff can log in, manage service records, and work with SQL-backed customer/personnel data.
 
-## Project Status
+## What It Does
 
-Portfolio archive of a completed desktop application coursework project.
-
-## Features
-
-- Customer and staff oriented service management screens
-- SQL table scripts for the supporting database
-- Login flow and desktop form navigation
-- Coursework-style desktop CRUD workflow
+- Provides a desktop UI for camera service tracking
+- Includes login and form-based navigation flows
+- Keeps SQL scripts for users, personnel, and service-related tables
+- Demonstrates a classic WinForms + SQL Server business application structure
 
 ## Tech Stack
 
-C#, WinForms, SQL Server
+- C#
+- Windows Forms
+- SQL Server scripts
+- Visual Studio solution structure
 
-## Local Setup
+## Project Structure
 
-Open `KameraServisiBut.sln` with Visual Studio and run the WinForms project after creating the database tables from the SQL scripts.
+- `KameraServisiBut.sln` - Visual Studio solution
+- `KameraServisiBut/` - WinForms source files and UI resources
+- SQL scripts are included as database reference material
+
+## Running Locally
+
+1. Open `KameraServisiBut.sln` in Visual Studio.
+2. Create the required SQL tables using the included scripts.
+3. Update the database connection settings if needed.
+4. Build and run the WinForms project.
 
 ## Repository Notes
 
-- Build output, Visual Studio cache files, and user-specific project files are excluded.
-- SQL scripts are included as schema/reference material.
+This repository is prepared as a portfolio archive. Build outputs, Visual Studio cache files, and machine-specific user files are excluded.
 
 ## License
 
-Released under the MIT License.
+MIT License.
